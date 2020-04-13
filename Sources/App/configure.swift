@@ -1,10 +1,17 @@
 import Vapor
+import Leaf
 
-// configures your application
 public func configure(_ app: Application) throws {
-    // uncomment to serve files from /Public folder
-    // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
 
-    // register routes
+    // Serves files from `Public/` directory
+    app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
+
+    // Configure Leaf
+    app.views.use(.leaf)
+    
+    if !app.environment.isRelease {
+        (app.leaf.cache as? DefaultLeafCache)?.isEnabled = false
+    }
+
     try routes(app)
 }

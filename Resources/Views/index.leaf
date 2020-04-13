@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thousand Years</title>
+    <link rel="stylesheet" href="/styles/app.css">
+  </head>
+  <body>
+    <div class="content">
+        <img src="/images/logo.jpg">
+    </div>
+  </body>
+</html>
