@@ -3,6 +3,7 @@
   <head>
     <title>Thousand Years</title>
     <link rel="stylesheet" href="/styles/app.css">
+    <link rel="apple-touch-icon" href="/images/logo.png">
   </head>
   <body>
     <div class="content">
