@@ -1,13 +1,11 @@
 {
-	"webcredentials": {
-		"apps": []
-	},
-	"applinks": {
-		"details": [{
-			"appID": "F9YJJ7L588.co.uk.thousandyears.kitchen-sink",
-			"components": [{
-				"/": "/kitchen-sink/*"
-			}]
-		}]
-	}
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "F9YJJ7L588.co.uk.thousandyears.kitchen-sink",
+                "paths": [ "/kitchen-skink/*"]
+            }
+        ]
+    }
 }
