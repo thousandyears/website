@@ -4,7 +4,11 @@
         "details": [
             {
                 "appID": "F9YJJ7L588.co.uk.thousandyears.kitchen-sink",
-                "paths": [ "/kitchen-sink/*"]
+                "paths": [ "/kitchen-sink/*" ]
+            },
+            {
+            	"appID": "F9YJJ7L588.co.uk.thousandyears.mirror-mirror",
+            	"paths": [ "/share/*" ]
             }
         ]
     }
