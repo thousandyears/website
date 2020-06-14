@@ -8,7 +8,7 @@
             },
             {
             	"appID": "F9YJJ7L588.co.uk.thousandyears.mirror-mirror",
-            	"paths": [ "/share/*" ]
+            	"paths": [ "/mirror-mirror/share/*" ]
             }
         ]
     }
